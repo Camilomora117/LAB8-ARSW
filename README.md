@@ -97,6 +97,8 @@ Para ver cómo manejar esto desde el manejador de eventos STOMP del servidor, re
 
 1. Cree una nueva clase que haga el papel de 'Controlador' para ciertos mensajes STOMP (en este caso, aquellos enviados a través de "/app/newpoint.{numdibujo}"). A este controlador se le inyectará un bean de tipo SimpMessagingTemplate, un Bean de Spring que permitirá publicar eventos en un determinado tópico. Por ahora, se definirá que cuando se intercepten los eventos enviados a "/app/newpoint.{numdibujo}" (que se supone deben incluir un punto), se mostrará por pantalla el punto recibido, y luego se procederá a reenviar el evento al tópico al cual están suscritos los clientes "/topic/newpoint".
 
+![image](https://user-images.githubusercontent.com/25957863/196566492-aabe067c-5d10-41ca-8215-40c856658a24.png)
+
 	```java
 	
 	@Controller
@@ -113,6 +115,9 @@ Para ver cómo manejar esto desde el manejador de eventos STOMP del servidor, re
 	}
 
 	```
+
+
+![image](https://user-images.githubusercontent.com/25957863/196566563-d6b2f821-da67-485a-b267-fbea8e67b108.png)
 
 2. Ajuste su cliente para que, en lugar de publicar los puntos en el tópico /topic/newpoint.{numdibujo}, lo haga en /app/newpoint.{numdibujo}. Ejecute de nuevo la aplicación y rectifique que funcione igual, pero ahora mostrando en el servidor los detalles de los puntos recibidos.
 
