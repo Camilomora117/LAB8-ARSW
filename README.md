@@ -126,8 +126,7 @@ Para ver cómo manejar esto desde el manejador de eventos STOMP del servidor, re
 
 	3. El cliente, ahora también se suscribirá al tópico '/topic/newpolygon'. El 'callback' asociado a la recepción de eventos en el mismo debe, con los datos recibidos, dibujar un polígono, [tal como se muestran en ese ejemplo](http://www.arungudelli.com/html5/html5-canvas-polygon/).
 	
-![image](https://user-images.githubusercontent.com/25957863/196567095-17e56493-1e89-4af3-901f-b45ecf28db79.png)
-
+![image](https://user-images.githubusercontent.com/25957863/196567205-2711e6cc-c00f-4551-8c1f-59323b940713.png)
 
 	4. Verifique la funcionalidad: igual a la anterior, pero ahora dibujando polígonos cada vez que se agreguen cuatro puntos.
 	
