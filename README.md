@@ -125,7 +125,8 @@ Para ver cómo manejar esto desde el manejador de eventos STOMP del servidor, re
 	
 ![image](https://user-images.githubusercontent.com/25957863/196567205-2711e6cc-c00f-4551-8c1f-59323b940713.png)
 
-	4. Verifique la funcionalidad: igual a la anterior, pero ahora dibujando polígonos cada vez que se agreguen cuatro puntos.
+
+4. Verifique la funcionalidad: igual a la anterior, pero ahora dibujando polígonos cada vez que se agreguen cuatro puntos.
 	
 ![image](https://user-images.githubusercontent.com/25957863/196566383-7bdef931-0602-4408-9cd0-19db051edc9c.png)
 	
